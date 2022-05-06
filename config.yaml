@@ -25,15 +25,15 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
-    name: www.cloudflare.com
+    name: github监控
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://github.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+    name: 个人博客
+    url: 'http://mianll.epizy.com/?i=1'
     method: GET
     expectStatus: 200
