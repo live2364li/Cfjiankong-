@@ -18,22 +18,22 @@ monitors:
   - id: workers-cloudflare-com # unique identifier
     name: 免流俱乐部博客
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://www.buyan.ml/' # URL to fetch
+    url: 'https://www.buyan.ml' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
-    name: www.cloudflare.com
+    name: github监控
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://github.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+    name: 机场
+    url: 'http://106.55.165.163'
     method: GET
     expectStatus: 200
