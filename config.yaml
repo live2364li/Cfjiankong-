@@ -33,7 +33,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: blog-cloudflare-com
-    name: 机场
-    url: 'http://106.55.165.163'
+    name: 个人博客
+    url: 'http://mianll.epizy.com/?i=1'
     method: GET
     expectStatus: 200
