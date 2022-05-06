@@ -37,17 +37,3 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
-    
-      - id: www-cloudflare-com
-    name: github监控
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://github.com/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: blog-cloudflare-com
-    name: 个人博客
-    url: 'http://mianll.epizy.com/?i=1'
-    method: GET
-    expectStatus: 200
