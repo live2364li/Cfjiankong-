@@ -2,7 +2,7 @@ settings:
   title: 'Status Page'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 888 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
+    name: ，免流俱乐部欢迎你
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://workers.cloudflare.com/' # URL to fetch
     method: GET # default=GET
@@ -25,15 +25,21 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
-    name: www.cloudflare.com
+    name: github监控
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://github.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+    name: 个人博客
+    url: 'http://mianll.epizy.com/?i=1'
+    method: GET
+    expectStatus: 200
+    
+  - id: blog-cloudflare-com
+    name: 测试
+    url: 'http://mianll.epizy.com/?i=1'
     method: GET
     expectStatus: 200
