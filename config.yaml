@@ -55,3 +55,9 @@ monitors:
     url: 'https://www.youtube.com/'
     method: GET
     expectStatus: 200    
+    
+  - id: blog-cloudflare-com
+    name: 博客
+    url: 'http://xiaoming.epizy.com/'
+    method: GET
+    expectStatus: 200    
