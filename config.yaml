@@ -37,3 +37,9 @@ monitors:
     url: 'http://mianll.epizy.com/?i=1'
     method: GET
     expectStatus: 200
+    
+  - id: blog-cloudflare-com
+    name: 谷歌博客
+    url: 'https://www.buyan.ml/'
+    method: GET
+    expectStatus: 200
