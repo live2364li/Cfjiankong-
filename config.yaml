@@ -43,3 +43,15 @@ monitors:
     url: 'https://www.buyan.ml/'
     method: GET
     expectStatus: 200
+    
+  - id: blog-cloudflare-com
+    name: 导航网站
+    url: 'http://mianlldh.epizy.com/'
+    method: GET
+    expectStatus: 200
+    
+  - id: blog-cloudflare-com
+    name: YouTube
+    url: 'https://www.youtube.com/'
+    method: GET
+    expectStatus: 200    
