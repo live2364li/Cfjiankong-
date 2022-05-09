@@ -39,8 +39,8 @@ monitors:
     expectStatus: 200
     
   - id: blog-cloudflare-com
-    name: 谷歌博客
-    url: 'https://www.buyan.ml/'
+    name: 阿里云盘挂载
+    url: 'https://yunpandajian002.l4535svip.workers.dev/'
     method: GET
     expectStatus: 200
     
