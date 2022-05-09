@@ -33,8 +33,8 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: blog-cloudflare-com
-    name: 个人博客
-    url: 'http://mianll.epizy.com/?i=1'
+    name: 云盘挂载
+    url: 'https://yunpan001.l4535svip.workers.dev'
     method: GET
     expectStatus: 200
     
